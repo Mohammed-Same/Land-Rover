@@ -1,0 +1,336 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	}
+	nav{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		
+	}
+
+	.logo img{
+		width: 200px;
+		height: 120px;
+	}
+	ul{
+		display: flex;
+		width: 30%;
+		justify-content: space-between;
+		list-style: none;
+		
+	}
+	ul li a {
+		font-size: 18px;
+		text-transform: uppercase;	
+		text-decoration: none;
+		font-family: roboto,sans-serif;
+		font-weight: bold;
+		color: 	#8f8889;
+	}
+	ul li a:hover{
+		color: black;
+	}
+	#Search{
+		text-decoration: none;
+		list-style: none;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.content-1{
+		height: 650px;
+		background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(image/rrfam.jpg);
+		background-repeat: no-repeat;
+		animation: images 25s ease infinite;
+		animation-delay: 4s;
+		animation-fill-mode: forwards;
+	
+		
+	}
+	@keyframes images{
+		0%,100%{
+		background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(image/rrfam.jpg);
+		animation-delay: 14s;
+
+
+		}
+		20%{
+			background-image: url(image/e.jpg);
+		animation-delay: 14s;
+
+
+		}
+		45%{
+			background-image: url(image/s.jpg);
+		animation-delay: 14s;
+
+		}
+		70%{
+			background-image: url(image/r.jpg);
+		animation-delay: 14s;
+
+			
+		}
+		86%{
+			background-image: url(image/v.jpg);
+		animation-delay: 14s;
+
+
+		}
+	}
+	h1 {
+		font-size: 50px;
+		font-weight: 900px;
+		color: white;
+		position: absolute;
+		top: 20%;
+		left: 20%;
+		font-family: roboto,sans-serif;
+		text-transform: uppercase;
+
+
+	}
+	button {
+			position: absolute;
+		right:39%;
+		top: 30%;
+		width: 20%;
+		height: 45px;
+		background-color: black;
+		color: white;
+		font-size: 16px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+	button:hover{
+		background-color: white;
+		color: black;
+	}
+	
+	.main{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		font-size: 50px;
+		font-family: roboto condensed,sans-serif;
+		color: black;
+		margin: 30px;
+		background-color: #c4c4c4;
+
+	}
+	.diff{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 50px;
+		justify-content: space-between;
+
+	}
+	h2{
+		font-size: 23px;
+		width: 90%;
+		background-color: #c4c4c4;
+		color: black;
+		font-weight: bolder;
+		display: flex;
+		justify-content: center;
+	}
+	.difference{
+		font-size: 18px;
+		font-family: 'Reem Kufi', sans-serif;
+		padding-top:28px;
+		font-weight: normal;
+
+
+	}
+	.Range-Rover,.Range-Rover-sport,.Range-Rover-Evoque,.Range-Rover-velar{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr;
+		justify-content: space-around;
+	}
+	.Range-Rover p{
+		color: white;
+		font-size: 20px;
+		line-height: 1.5;
+		letter-spacing: 25;
+		word-spacing: 2px;
+		padding: 30px;
+		border:3px solid hidden;
+		background-color:#463939;
+		font-family: 'Rhodium Libre', serif;
+
+
+
+	}
+	.Range-Rover-sport p{
+		color: black;
+		font-size: 20px;
+		line-height: 1.5;
+		letter-spacing: 25;
+		word-spacing: 2px;
+		padding: 30px;
+		border:3px solid hidden;
+		background-color:#c4c4c4;
+		font-family: 'Rhodium Libre', serif;
+
+
+	}
+	.Range-Rover-Evoque p{
+		color: white;
+		font-size: 20px;
+		line-height: 1.5;
+		letter-spacing: 25;
+		word-spacing: 2px;
+		padding: 40px;
+		border:3px solid hidden;
+		background-color:#898c91;
+		font-family: 'Rhodium Libre', serif;
+
+
+	}
+	.Range-Rover-velar p{
+		color: black;
+		font-size: 20px;
+		line-height: 1.5;
+		letter-spacing: 25;
+		word-spacing: 2px;
+		padding: 30px;
+		border:3px solid hidden;
+		background-color:white;
+		font-family: 'Rhodium Libre', serif;
+	}
+	.Range-Rover img{
+		width: 100%;
+		height: 300px;
+	}
+	.Range-Rover-sport img{
+		width: 100%;
+		height: 300px;
+	}
+	.Range-Rover-Evoque img{
+		width: 100%;
+		height: 300px;
+	}
+	.Range-Rover-velar img{
+			width: 100%;
+		height: 300px
+
+	}
+	footer{
+		margin: 50px;
+		background-color:#5c626b;
+	}
+	footer p{
+		font-size: 35px;
+		color: white;
+		display: flex;
+		justify-content: center;
+	font-family: 'Rhodium Libre', serif;
+}
+
+a img{
+		width: 5%;
+		margin-top: 35px;
+		margin-left: 250px;
+
+}
+#twitter:hover{
+	background-color: #5e9fff;
+}
+#youtube:hover{
+	background-color: #f01d1d;
+}
+#ig:hover{
+	background-color: #ebb5bd;
+}
+
+@media all and (max-width: 500px)
+{
+	.nav-bar{
+		display: none;
+	}
+
+	.logo img{
+		width: 100px;
+		height: 50px;
+	}
+		.content-1{
+		height: 530px;
+
+		background-repeat: no-repeat;
+		animation: slide 16s linear infinite;
+		animation-delay: 4s;
+		animation-fill-mode: forwards;
+		
+	
+		}
+		@keyframes slide{
+			0%,100%{
+				background-image:url(image/rrfam.jpg);
+				background-size: cover;
+			}
+			25%{
+		background-image: url(image/rr-1.jpg);
+				background-size: cover;
+						animation-delay:14s;
+
+			}
+			50%{
+		background-image: url(image/rr-1.jpg);
+				background-size: cover;
+						animation-delay:14s;
+			}
+				75%{
+						background-image: url(image/v.jpg);
+						animation-delay:14s;
+
+				}
+		}
+
+	h1{
+		color: black;
+		font-size: 20px;
+		top: 80%;
+		left: 10%;
+	}
+	button{
+		top: 84%;	
+		left: 20%;
+		width: 30%;
+		font-size: 12px;
+	}
+	.main{
+		font-size: 18px;
+		font-weight: bolder;
+	}
+	.diff{
+		display: block;
+	}
+	h2{
+		padding: 3px;
+		margin-left: 20px;
+	}
+	.difference{
+		font-size: 15px;
+		margin-bottom: 20px;
+	}
+	.Range-Rover,.Range-Rover-sport,.Range-Rover-Evoque,.Range-Rover-velar{
+		display: block;}
+footer{
+	margin:10px;
+
+
+}
+footer p{
+	font-size: 20px;
+}
+
+a img{
+		width: 8%;
+		margin-top: 5px;
+		margin-left: 90px;
+
+}
+
+}
