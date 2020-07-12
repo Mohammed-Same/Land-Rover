@@ -257,7 +257,6 @@ a img{
 	}
 		.content-1{
 		height: 530px;
-
 		background-repeat: no-repeat;
 		animation: slide 16s linear infinite;
 		animation-delay: 4s;
@@ -290,7 +289,7 @@ a img{
 
 	h1{
 		color: black;
-		font-size: 35px;
+		font-size: 28px;
 		top: 80%;
 		left: 10%;
 	}
