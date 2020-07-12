@@ -57,24 +57,24 @@
 		}
 		20%{
 			background-image: url(image/e.jpg);
-		animation-delay: 14s;
+			animation-delay: 14s;
 
 
 		}
 		45%{
 			background-image: url(image/s.jpg);
-		animation-delay: 14s;
+			animation-delay: 14s;
 
 		}
 		70%{
 			background-image: url(image/r.jpg);
-		animation-delay: 14s;
+			animation-delay: 14s;
 
 			
 		}
 		86%{
 			background-image: url(image/v.jpg);
-		animation-delay: 14s;
+			animation-delay: 14s;
 
 
 		}
@@ -271,19 +271,19 @@ a img{
 				background-size: cover;
 			}
 			25%{
-		background-image: url(image/rr-1.jpg);
+				background-image: url(image/rr-1.jpg);
 				background-size: cover;
-						animation-delay:14s;
+				animation-delay:14s;
 
 			}
 			50%{
-		background-image: url(image/rr-1.jpg);
+				background-image: url(image/rr-1.jpg);
 				background-size: cover;
-						animation-delay:14s;
+				animation-delay:14s;
 			}
 				75%{
-						background-image: url(image/v.jpg);
-						animation-delay:14s;
+				background-image: url(image/v.jpg);
+				animation-delay:14s;
 
 				}
 		}
@@ -295,7 +295,7 @@ a img{
 		left: 10%;
 	}
 	button{
-		top: 84%;	
+		top: 86%;	
 		left: 20%;
 		width: 30%;
 		font-size: 12px;
